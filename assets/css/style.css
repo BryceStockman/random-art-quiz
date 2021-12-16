@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #333333;
+  --secondary-color: #e4e4e4;
+  --accent-color: #d59bf0;
+  --correct-bg: rgb(31, 129, 56);
+  --incorrect-bg: rgb(177, 47, 47);
+  --btn-color: #351c75;
+  --btn-color-faded: #dcd2f6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--btn-color);
+}
+
+/* GENERAL STYLING */
+.container {
+  max-width: 50%;
+}
+
+.btn {
+  color: var(--secondary-color);
+  background-color: var(--btn-color);
+}
+
+.btn:hover {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+
+.bg-correct {
+  background-color: var(--correct-bg);
+}
+
+.bg-incorrect {
+  background-color: var(--incorrect-bg);
+}
+
+.hide {
+  display: none;
+}
+
+/* HEADER STYLING */
+#container-header {
+  font-size: 22px;
+  max-width: 90% !important;
+}
+
+/* START QUIZ STYLING */
+#container-start {
+  text-align: center;
+  margin: 100px auto 0 auto;
+}
+
+/* QUIZ STYLING */
+.answer-response {
+  color: var(--secondary-color);
+  font-size: 24px;
+}
+
+.answer-btn {
+  width: 25%;
+  margin: 5px auto 5px auto !important;
+}
+
+/* END QUIZ STYLING */
+#container-end {
+  margin-top: 100px;
+}
+
+.high-score-input {
+  margin: 0 10px 0 10px;
+  padding: 3px 0 6px 0;
+}
+
+#container-highscores {
+  margin-top: 100px;
+}
+
+.restart-btn,
+.clear-btn {
+  width: 30%;
+  margin: 10px 0 0 12px;
+}
+
+.user-hs {
+  width: 75%;
+  padding: 5px 0 5px 0 !important;
+  margin-left: 12px;
+  background-color: var(--btn-color-faded);
+  border: none;
+}
