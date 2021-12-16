@@ -207,6 +207,7 @@ function showQuestion(questionTitle) {
 
   // Choice Options
   questionsArray[i].choices.forEach(function (choice) {
+    console.log(questionsArray[i]);
     var answerBtnEl = document.createElement('button');
     answerBtnEl.classList.add(
       'answer-btn',
@@ -268,6 +269,7 @@ function restartQuiz() {
   i = 0;
   totalScore = 0;
   countdownSeconds = 60;
+  questionItemsListEl.innerHTML = '';
   timerEl.innerHTML = countdownSeconds;
   highScoreContainer.classList.add('hide');
   startQuizContainer.classList.remove('hide');
