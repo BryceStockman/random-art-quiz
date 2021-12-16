@@ -1,5 +1,5 @@
 ## Description
-This application will test a users knowledge of the arts. When the user decides to start 
+This application will test a users knowledge of the arts. When the user decides to start the quiz the timer will start to countdown. With every answer there will be a response letting the user know if the answer was correct or incorrect. If the answer is incorrect, then 10 seconds will be subtracted from the timer. At the end of the quiz the user will be shown their score and asked to add their initials, then when the user submits their initials, they will be shown a list of the top scores. The user then has the option to start the quiz over again or clear high scores.
 
 ## Screenshots
 
